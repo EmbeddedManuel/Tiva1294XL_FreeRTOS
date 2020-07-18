@@ -22,7 +22,6 @@ namespace FreeRTOS
 class UartPrint : public PrintDevice, private UartHelper
 {
 public:
-    using UartHelper::UART_PORTS;
 
     UartPrint(uint32_t portNum);
     UartPrint(uint32_t portNum, void (*handler)(void));

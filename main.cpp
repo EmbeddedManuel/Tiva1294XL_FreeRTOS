@@ -40,6 +40,7 @@ void testTask2(void* param) {
 int main(void)
 {
     sysinit();
+
     uart.init(115200, CPU_CLK);
 
     xTaskCreate(testTask1, "test1", 256, NULL, tskIDLE_PRIORITY+1, NULL);
