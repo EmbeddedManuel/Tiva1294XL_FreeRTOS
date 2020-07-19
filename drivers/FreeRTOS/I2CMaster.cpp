@@ -8,7 +8,7 @@
 #include "FreeRTOS/I2CMaster.h"
 
 #include "driverlib/i2c.h"
-#include "driverlib/sysctl.h"s
+#include "driverlib/sysctl.h"
 
 namespace FreeRTOS
 {
